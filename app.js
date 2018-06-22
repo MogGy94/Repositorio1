@@ -1,7 +1,14 @@
+// node app.js
+
 const  express =  require('express');
 const app = express ();
 
-app.get('/',() => {
+
+// Operaciones del CRUD de
+
+
+
+app.get('/',(req,res) => {
   res.send('index page');
 });
 // creacion de rutas de acceso al API

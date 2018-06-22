@@ -1,3 +1,5 @@
+// node index.js
+
 const morgan = require ('morgan');
 const bodyParser = require('body-parser');
 
@@ -14,7 +16,6 @@ app.set('json spaces',4);
 app.use(morgan('dev'));
 app.use(bodyParser.json());//escucha datos json
 app.use(bodyParser.urlencoded({extended: false}));
-
 // routes
 app.use('/routes',routes);
 // static files
