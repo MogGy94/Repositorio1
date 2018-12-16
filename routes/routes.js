@@ -1,3 +1,5 @@
+// las rutas Ulitizan los controladores para generar la funcionalidad es pecifica que es nesesaria
+/**/
 const express = require('express');
 const router = express.Router();
 

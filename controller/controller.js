@@ -2,6 +2,8 @@ const {products} =  require('../db/db.json');
 
 //operaciones sobre la base de datos " no relamente"
 
+
+ /*desde los con*/ 
 module.exports = {
 ///Estas funciones se exportan
 
